@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header nav {
+    background: brown;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: red;
+}
+
+.mainImg {
+    height: 575px;
+    width: 100%
+}
+
+.menu {
+    height: 575px;
+    width: auto;
+    background-color: gray;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.menuItem {
+    border: 1px solid black;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    background-color: brown;
+    font-size: 1.5rem;
+}
+
+.contact {
+    height: 575px;
+    width: 100%;
+    background: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact p {
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
